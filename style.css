@@ -23,7 +23,7 @@
         flex-direction:column;
         
         position:relative;
-        padding-top:30px;
+        padding-top:40px;
     
     }
 
@@ -239,4 +239,5 @@ z-index:0;
         opacity:0.9;
         font-weight:bold;
         }
+
 
