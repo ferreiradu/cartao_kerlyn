@@ -71,19 +71,7 @@ z-index:0;
     
     }
 
-    .capa::before{
-        content:"";
-        position:absolute;
-        top:0;
-        left:0;
-        width:100%;
-        height:90%;
-        
-        background:linear-gradient(
-        to bottom,
-        rgba(0,0,0,0.2),
-        rgba(0,0,0,0.4)
-        );
+   
         }
 
     .logo {
@@ -239,5 +227,6 @@ z-index:0;
         opacity:0.9;
         font-weight:bold;
         }
+
 
 
