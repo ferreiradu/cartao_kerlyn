@@ -23,7 +23,7 @@
         flex-direction:column;
         
         position:relative;
-        padding-top:40px;
+        padding-top:10px;
     
     }
 
@@ -38,7 +38,7 @@ z-index:2;
     .capa{
 
      width:100%;
-     height:295px;
+     height:300px;
 
 background-image:url("imagem/unicv.jpg");
 background-size:contain;
@@ -71,7 +71,7 @@ z-index:0;
     
     }
 
-   .capa::before{
+    .capa::before{
         content:"";
         position:absolute;
         top:0;
@@ -85,9 +85,6 @@ z-index:0;
         rgba(0, 0, 0, 0)
         );
         }
-
-   
-        
 
     .logo {
     display:flex;
@@ -108,7 +105,7 @@ z-index:0;
     .vendedora{
 
         margin-top:10px;
-        font-size:17px;
+        font-size:20px;
         color:#20120a;
         
         }
@@ -164,12 +161,7 @@ z-index:0;
     
     }
     
-    .conteudo h1{
     
-    color:#1e4d2b;
-    font-size:24px;
-    
-    }
     
     .conteudo h2{
     
@@ -191,33 +183,36 @@ z-index:0;
     
     .icones{
     
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:30px;
-    
-    max-width:240px;
-    margin:30px auto;
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap: 20px;
+        max-width:280px;
+        margin: auto;
+        margin-top: 20px;
+        
+        
+        
         
     
     }
     
     .icone{
     
-    width:57px;
-    height:57px;
-    background:#1e4d2b;
-    border-radius:50%;
+        background:white;
+        padding: 10px;
+        border-radius:10px;
+        text-decoration:none;
+        color:#0f3d2e;
+        box-shadow:0 3px 10px rgba(0,0,0,0.08);
+        transition:0.3s;
     
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    
-    color:white;
-    font-size:27px;
-    
-    transition:0.3s;
-    
+    }
+
+    .icone i {
+        font-size:32px;
+        margin-bottom:10px;
+        color:#c8a55a;
+
     }
 
   
@@ -232,17 +227,20 @@ z-index:0;
     
     }
 
-    .footer-card{
-       
-        
-      
-        font-size:13px;
-        color:#1e4d2b;
-        text-align:center;
-        opacity:0.9;
-        font-weight:bold;
-        }
+/* ============================= */
+/* RODAPÉ */
+/* ============================= */
 
-
-
-
+.rodape{
+    margin-top:5px;
+    padding:20px;
+    color:#666;
+    font-size:14px;
+    text-align: center;
+    }
+    
+    .rodape i{
+    font-size:22px;
+    margin-bottom:8px;
+    display:block;
+    }  
